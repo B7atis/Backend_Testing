@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "mocha --watch"
+    "test": "mocha --watch --colors \"./{,!(node_modules|client)/**/}*.test.js\""
   },
   "author": "",
   "description": ""
